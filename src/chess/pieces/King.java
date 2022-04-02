@@ -14,7 +14,6 @@ public class King extends ChessPiece {
 		super(board, color);
 		this.chessMatch = chessmatch;
 		}
-
 	
 	@Override
 	public String toString() {
@@ -97,8 +96,6 @@ public class King extends ChessPiece {
 				}
 			}
 			
-		
-		
 		//Castling Queenside
 		Position tower2 = new Position(position.getRow(), position.getColumn()-4);
 		if(testRookCastling(tower2)) {
@@ -110,7 +107,6 @@ public class King extends ChessPiece {
 			}
 		}
 		}
-	
 		return mat;
 	}
 }

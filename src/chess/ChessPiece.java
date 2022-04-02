@@ -42,7 +42,6 @@ public abstract class ChessPiece extends Piece {
 	
 	
 	public boolean[][] possibleMoves() {
-		// TODO Auto-generated method stub
 		return null;
 	}
 }
